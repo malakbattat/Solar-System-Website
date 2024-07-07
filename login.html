@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Website - Login </title>
+    <link rel="icon" type="image/x-icon" href="resources/images/icon/space.png">
+    <link rel="stylesheet" href="resources/Css/style-login.css">
+    <link rel="stylesheet" href="resources/Css/navbar.css">
+</head>
+
+<body>
+    <div class="navbar" style="position: fixed; top: 0;">
+        <a id="home-link" href="index.html">Home</a>
+        <a id="facts-link" href="facts.html">Facts</a>
+    </div>
+    <form>
+        <div class="container">
+            <p class="welcome">  Welcome to<b> Solar System Website </b>,<br>please <b>log in!</b></p> 
+            <label for="uname">
+                <h4>Username</h4>
+            </label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw">
+                <h4>Password</h4>
+            </label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button id="login" type="submit">Log in</button><br>
+            <label id="remember">
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+        <div class="container" id="sub-div">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <div class="psw">Forgot <a href="#">password?</a></div>
+        </div>
+    </form>
+</body>
+
+</html>
